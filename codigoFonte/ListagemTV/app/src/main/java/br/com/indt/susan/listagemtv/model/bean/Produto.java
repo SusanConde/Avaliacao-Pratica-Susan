@@ -1,10 +1,13 @@
 package br.com.indt.susan.listagemtv.model.bean;
 
+import java.io.Serializable;
+
 /**
  * Created by susan on 23/03/17.
  */
 
-public class Produto {
+public class Produto implements Serializable {
+
     private Long id;
     private String nome;
     private double preco;
