@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ListagemTV</string>
+    <!-- TextView -->
+    <string name="preco">Preço</string>
 </resources>
