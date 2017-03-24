@@ -1,5 +1,5 @@
 # Avaliacao-Pratica-Susan
-Teste de Avaliação para vaga de Desenvolvimento.
+Teste para vaga de Desenvolvimento.
 
 # Criar um aplicativo Android (marshmallow)
 
