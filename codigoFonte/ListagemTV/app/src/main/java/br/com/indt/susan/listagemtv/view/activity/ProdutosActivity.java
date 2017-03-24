@@ -1,7 +1,9 @@
-package br.com.indt.susan.listagemtv;
+package br.com.indt.susan.listagemtv.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import br.com.indt.susan.listagemtv.R;
 
 public class ProdutosActivity extends AppCompatActivity {
 
