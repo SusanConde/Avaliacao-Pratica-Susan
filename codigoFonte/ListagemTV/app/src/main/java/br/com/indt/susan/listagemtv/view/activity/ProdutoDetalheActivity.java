@@ -35,7 +35,7 @@ public class ProdutoDetalheActivity extends BaseActivity {
         //getSupportActionBar().setTitle(produto.getNome().substring(0,produto.getNome().indexOf("\"")));
         getSupportActionBar().setTitle("");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Picasso.with(getContext()).load(produto.getUrlFoto()).into(imageView_produto);
+        Picasso.with(getContext()).load(produto.getUrlFoto()).resize(450,450).into(imageView_produto);
         textView_valor.setText(String.valueOf("R$"+produto.getPreco()));
     }
 }
