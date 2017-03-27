@@ -69,7 +69,7 @@ public class ProdutoPresenter{
                         produto.setUrlFoto(imagemJson.getString("small"));
                         listaProdutos.add(produto);
                     }
-
+                    //Para cada item da lista, recebe o valor do produto através de outra URL
                     for (int i = 0; i < listaProdutos.size(); i++){
                         carregarPreco(listaProdutos.get(i).getId(),i);
                     }
@@ -89,7 +89,7 @@ public class ProdutoPresenter{
         });
     }
 
-
+    //Obter preço de um produto
     public void carregarPreco(Long id, final int idx) {
 
 

@@ -38,6 +38,7 @@ public class RecyclerAdapterProduto extends RecyclerView.Adapter<RecyclerAdapter
         return this.produtos != null ? this.produtos.size() : 0;
     }
 
+    //Metodo que armazena a views
     @Override
     public RecyclerViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_list_recycler_view_produtos, viewGroup, false);
